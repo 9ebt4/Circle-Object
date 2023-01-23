@@ -29,6 +29,7 @@ static void exitProgram(ref bool x)
 
         if (answer.Contains('y'))
         {
+            Console.Clear();
             break;
         }
         else if (answer.Contains('n'))
